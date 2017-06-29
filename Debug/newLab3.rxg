@@ -1,0 +1,4 @@
+-cpu=rx600
+-output="C:\WorkSpace\newLab3\newLab3\Debug\newLab3.lib"
+-lang=c99
+-head=runtime,stdio,stdlib

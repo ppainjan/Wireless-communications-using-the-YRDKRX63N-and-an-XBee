@@ -1,0 +1,91 @@
+Optimizing Linkage Editor (V.10.02.00.000)        26-Feb-2016 14:49:26
+
+*** Options ***
+
+-subcommand=C:\WorkSpace\newLab3\newLab3\Debug\newLab3.hlk
+-noprelink
+-rom=D=R,D_1=R_1,D_2=R_2
+-nomessage
+-vect=_undefined_interrupt_source_isr
+-list="C:\WorkSpace\newLab3\newLab3\Debug\newLab3.map"
+-nooptimize
+-start=SI,SU,B_1,R_1,B_2,R_2,B,R/00,C_1,C_2,C,C$*,L*,D*,P,W*/0FFF80000,FIXEDVECT/0FFFFFF90
+-nologo
+-input="C:\WorkSpace\newLab3\newLab3\Debug\dbsct.obj"
+-input="C:\WorkSpace\newLab3\newLab3\Debug\flash_options.obj"
+-input="C:\WorkSpace\newLab3\newLab3\Debug\font_8x8.obj"
+-input="C:\WorkSpace\newLab3\newLab3\Debug\glyph.obj"
+-input="C:\WorkSpace\newLab3\newLab3\Debug\hwsetup.obj"
+-input="C:\WorkSpace\newLab3\newLab3\Debug\lcd.obj"
+-input="C:\WorkSpace\newLab3\newLab3\Debug\lowlvl.obj"
+-input="C:\WorkSpace\newLab3\newLab3\Debug\lowsrc.obj"
+-input="C:\WorkSpace\newLab3\newLab3\Debug\main.obj"
+-input="C:\WorkSpace\newLab3\newLab3\Debug\r_glyph.obj"
+-input="C:\WorkSpace\newLab3\newLab3\Debug\r_glyph_register.obj"
+-input="C:\WorkSpace\newLab3\newLab3\Debug\r_rspi_rx600.obj"
+-input="C:\WorkSpace\newLab3\newLab3\Debug\r_switches.obj"
+-input="C:\WorkSpace\newLab3\newLab3\Debug\resetprg.obj"
+-input="C:\WorkSpace\newLab3\newLab3\Debug\sbrk.obj"
+-input="C:\WorkSpace\newLab3\newLab3\Debug\st7579_lcd.obj"
+-input="C:\WorkSpace\newLab3\newLab3\Debug\uart.obj"
+-input="C:\WorkSpace\newLab3\newLab3\Debug\vecttbl.obj"
+-library="C:\WorkSpace\newLab3\newLab3\Debug\newLab3.lib"
+-output="C:\WorkSpace\newLab3\newLab3\Debug\newLab3.abs"
+-end
+
+*** Error information ***
+
+*** Mapping List ***
+
+SECTION                            START      END         SIZE   ALIGN
+
+SI
+                                  00000000  000003ff       400   4
+SU
+                                  00000400  000013ff      1000   4
+B_1
+                                  00001400  00001561       162   1
+R_1
+                                  00001562  000015ca        69   1
+B_2
+                                  000015cc  000015cc         0   2
+R_2
+                                  000015cc  000015cc         0   2
+B
+                                  000015cc  00001a23       458   4
+R
+                                  00001a24  000020bb       698   4
+$ADDR_C_FF7FFFE8
+                                  ff7fffe8  ff7fffff        18   1
+C_1
+                                  fff80000  fff80ad1       ad2   1
+C_2
+                                  fff80ad2  fff80cd3       202   2
+C
+                                  fff80cd4  fff80d8b        b8   4
+C$DSEC
+                                  fff80d8c  fff80daf        24   4
+C$BSEC
+                                  fff80db0  fff80dc7        18   4
+C$VECT
+                                  fff80dc8  fff811c7       400   4
+L
+                                  fff811c8  fff812d8       111   4
+D
+                                  fff812dc  fff81973       698   4
+D_2
+                                  fff81974  fff81974         0   2
+D_1
+                                  fff81974  fff819dc        69   1
+P
+                                  fff819dd  fff85ac8      40ec   1
+W_1
+                                  fff85ac9  fff85ac9         0   1
+W_2
+                                  fff85aca  fff85b9b        d2   2
+W
+                                  fff85b9c  fff85b9c         0   4
+$ADDR_C_FFFFFF80
+                                  ffffff80  ffffff8f        10   1
+FIXEDVECT
+                                  ffffff90  ffffffff        70   4
